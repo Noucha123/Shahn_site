@@ -2,59 +2,85 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع شحن</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>شحن | خدمات الشحن</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
             direction: rtl;
-            text-align: center;
         }
         header {
-            background-color: #007bff;
+            background-color: #0d6efd;
             color: white;
-            padding: 1.5em;
+            padding: 2em;
+            text-align: center;
         }
         section {
             padding: 2em;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        .services, .payment {
+            background: #ffffff;
+            padding: 1.5em;
+            margin-top: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 1.5em;
+            background-color: #25d366;
+            color: white;
+            padding: 0.75em 1.5em;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
         }
         footer {
             background-color: #343a40;
             color: white;
             padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .button {
-            background-color: #28a745;
-            color: white;
-            padding: 0.75em 1.5em;
-            text-decoration: none;
-            border-radius: 5px;
+            text-align: center;
+            margin-top: 2em;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>مرحبًا بك في موقع شحن</h1>
-        <p>نحن نوفر لك خدمات شحن الألعاب، البطاقات، والحوالات بكل سهولة وأمان.</p>
-    </header>
-    <section>
+
+<header>
+    <h1>مرحبًا بك في موقع شحن</h1>
+    <p>نوفر خدمات الشحن والحوالات بكل سهولة وسرعة</p>
+</header>
+
+<section>
+    <div class="services">
         <h2>خدماتنا:</h2>
         <ul style="list-style: none; padding: 0;">
             <li>🎮 شحن ألعاب إلكترونية</li>
-            <li>💳 بطاقات مسبقة الدفع</li>
-            <li>💰 حوالات رقمية</li>
+            <li>📱 شحن تطبيقات وبطاقات</li>
+            <li>💸 حوالات وتحويلات رقمية</li>
         </ul>
-        <a href="#" class="button">تواصل معنا الآن</a>
-    </section>
-    <footer>
-        &copy; 2025 موقع شحن. جميع الحقوق محفوظة.
-    </footer>
+    </div>
+
+    <div class="payment">
+        <h3>طرق الدفع:</h3>
+        <p>💳 ويش ماني &nbsp;&nbsp;|&nbsp;&nbsp; 🏦 تحويل بنكي</p>
+    </div>
+
+    <a class="whatsapp-button" href="https://wa.me/9613298609" target="_blank">
+        تواصل عبر واتساب
+    </a>
+</section>
+
+<footer>
+    &copy; 2025 موقع شحن - جميع الحقوق محفوظة.
+</footer>
+
 </body>
 </html>
